@@ -27,4 +27,4 @@ with webdriver.Chrome() as webdriver:
         if int(cookie['name'].split('_')[-1]) % 2 == 0:
             summ += int(cookie['value'])
 
-    pprint(summ)
+    print(summ)
